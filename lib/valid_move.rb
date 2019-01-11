@@ -5,9 +5,8 @@
 def valid_?(board, index)
 if index <0 || >9
   return false
-
 elsif board[index] == " " || board[index] == "" || board[index] == nil
   return true
-else return falses
+else return false
 end
 end
